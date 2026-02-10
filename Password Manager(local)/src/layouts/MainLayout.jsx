@@ -7,7 +7,7 @@ const MainLayout = () => {
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-50 to-green-100">
       <Navbar />
 
-      <main className="flex-grow">
+      <main className="flex-1 w-full">
         <Outlet />
       </main>
 
@@ -17,3 +17,5 @@ const MainLayout = () => {
 };
 
 export default MainLayout;
+
+
